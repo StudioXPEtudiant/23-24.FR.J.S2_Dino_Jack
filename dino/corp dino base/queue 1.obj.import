@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dyjowpuipvq25"
+path="res://.godot/imported/queue 1.obj-84e7a45ff73a13e74ad7243a51070598.mesh"
+
+[deps]
+
+files=["res://.godot/imported/queue 1.obj-84e7a45ff73a13e74ad7243a51070598.mesh"]
+
+source_file="res://dino/corp dino base/queue 1.obj"
+dest_files=["res://.godot/imported/queue 1.obj-84e7a45ff73a13e74ad7243a51070598.mesh", "res://.godot/imported/queue 1.obj-84e7a45ff73a13e74ad7243a51070598.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

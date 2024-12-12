@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ckjq4gyt3yrem"
+path="res://.godot/imported/pied gauche.obj-24e0ebbb1a17f566ea7626e49e771a6c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pied gauche.obj-24e0ebbb1a17f566ea7626e49e771a6c.mesh"]
+
+source_file="res://dino/corp dino base/pied gauche.obj"
+dest_files=["res://.godot/imported/pied gauche.obj-24e0ebbb1a17f566ea7626e49e771a6c.mesh", "res://.godot/imported/pied gauche.obj-24e0ebbb1a17f566ea7626e49e771a6c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

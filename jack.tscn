@@ -1,0 +1,62 @@
+[gd_scene load_steps=11 format=3 uid="uid://b6c7ixqn6wf2q"]
+
+[ext_resource type="ArrayMesh" uid="uid://casdnlbv5v3oh" path="res://dino/corp dino base/bras droit.obj" id="1_n1qkd"]
+[ext_resource type="ArrayMesh" uid="uid://carh2p03750bf" path="res://dino/corp dino base/buste.obj" id="2_u4jio"]
+[ext_resource type="ArrayMesh" uid="uid://cvw2fh6148b10" path="res://dino/corp dino base/bras gauche.obj" id="3_k74x6"]
+[ext_resource type="ArrayMesh" uid="uid://cjjyjaru6f0q0" path="res://dino/corp dino base/pied droit.obj" id="4_oclxs"]
+[ext_resource type="ArrayMesh" uid="uid://ckjq4gyt3yrem" path="res://dino/corp dino base/pied gauche.obj" id="5_4efc0"]
+[ext_resource type="ArrayMesh" uid="uid://dyjowpuipvq25" path="res://dino/corp dino base/queue 1.obj" id="6_fyu5x"]
+[ext_resource type="ArrayMesh" uid="uid://r5rtl8b7k8mo" path="res://dino/corp dino base/queue 2.obj" id="7_vw862"]
+[ext_resource type="ArrayMesh" uid="uid://cnafv7lj8j3tk" path="res://dino/corp dino base/queue 3.obj" id="8_x6gw8"]
+[ext_resource type="ArrayMesh" uid="uid://be16sr3i27v30" path="res://dino/corp dino base/tete.obj" id="9_7xdwn"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6c0xn"]
+
+[node name="jack" type="Node3D"]
+transform = Transform3D(0.999799, -0.00654867, -0.0189609, 0.00633032, 0.999913, -0.0115536, 0.019035, 0.0114313, 0.999754, -13.0622, 2.69475, 15.7939)
+
+[node name="BrasDroit" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, -5.03496e-09, -9.49949e-08, 9.31323e-10, 1, 9.31323e-09, 0, 9.31323e-09, 1, 12.7492, -2.273, -18.3525)
+material_override = SubResource("StandardMaterial3D_6c0xn")
+mesh = ExtResource("1_n1qkd")
+skeleton = NodePath("../..")
+
+[node name="Buste" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 4.74392e-09, -1.67638e-08, 9.31323e-10, 1, 2.79397e-09, 0, 9.31323e-09, 1, 12.9864, -3.24851, -15.9496)
+mesh = ExtResource("2_u4jio")
+skeleton = NodePath("../..")
+
+[node name="BrasGauche" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 4.74392e-09, -1.67638e-08, 9.31323e-10, 1, 2.79397e-09, 0, 9.31323e-09, 1, 12.7911, -2.44545, -13.5851)
+mesh = ExtResource("3_k74x6")
+skeleton = NodePath("../..")
+
+[node name="PiedDroit" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, -5.03496e-09, -1.15484e-07, 9.31323e-10, 1, -1.86265e-09, 0, 9.31323e-09, 1, 12.7657, -3.02124, -16.9861)
+mesh = ExtResource("4_oclxs")
+skeleton = NodePath("../..")
+
+[node name="PiedGauche" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, -5.03496e-09, -1.15484e-07, 9.31323e-10, 1, -1.86265e-09, 0, 9.31323e-09, 1, 12.86, -2.95978, -15.2664)
+mesh = ExtResource("5_4efc0")
+skeleton = NodePath("../..")
+
+[node name="Queue1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, -5.03496e-09, -1.15484e-07, 9.31323e-10, 1, -1.86265e-09, 0, 9.31323e-09, 1, 13.4534, -3.80205, -15.9176)
+mesh = ExtResource("6_fyu5x")
+skeleton = NodePath("../..")
+
+[node name="Queue2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 4.74392e-09, -1.67638e-08, 9.31323e-10, 1, 2.79397e-09, 0, 9.31323e-09, 1, 13.8887, -4.01262, -15.8877)
+mesh = ExtResource("7_vw862")
+skeleton = NodePath("../..")
+
+[node name="Queue3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, -5.03496e-09, -9.49949e-08, 9.31323e-10, 1, 9.31323e-09, 0, 9.31323e-09, 1, 13.8305, -4.00675, -15.9037)
+mesh = ExtResource("8_x6gw8")
+skeleton = NodePath("../..")
+
+[node name="Tete" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, -5.03496e-09, -1.15484e-07, 9.31323e-10, 1, -1.86265e-09, 0, 9.31323e-09, 1, 13.8617, -2.91369, -15.9767)
+mesh = ExtResource("9_7xdwn")
+skeleton = NodePath("../..")

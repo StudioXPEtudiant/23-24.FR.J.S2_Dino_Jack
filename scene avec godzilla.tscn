@@ -11,7 +11,7 @@ mode = 0
 textures = [[], []]
 
 [node name="Node3D" type="Node3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -68.6038, -177.443, -67.8897)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -194.451, -492.94, -219.839)
 
 [node name="HTerrain" type="Node3D" parent="."]
 script = ExtResource("1_rc264")

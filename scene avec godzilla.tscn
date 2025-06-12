@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 [gd_scene load_steps=46 format=3 uid="uid://c6623528swkb1"]
+=======
+[gd_scene load_steps=7 format=3 uid="uid://c6623528swkb1"]
+>>>>>>> b3c2c0150a158029020cf5e38d08dbc07ccb5693
 
 [ext_resource type="Script" path="res://addons/zylann.hterrain/hterrain.gd" id="1_rc264"]
 [ext_resource type="Resource" path="res://map/map1/data.hterrain" id="2_m24wk"]
 [ext_resource type="Script" path="res://addons/zylann.hterrain/hterrain_texture_set.gd" id="3_r6jyl"]
+<<<<<<< HEAD
 [ext_resource type="PackedScene" uid="uid://dkn3yft3iedxc" path="res://dino/godzilla/godzilla (dinojack).obj" id="4_qrvr5"]
+=======
+[ext_resource type="ArrayMesh" uid="uid://dkn3yft3iedxc" path="res://dino/godzilla/godzilla (dinojack).obj" id="4_qrvr5"]
+[ext_resource type="PackedScene" uid="uid://bofxpawdj6pnq" path="res://samuel/scene.tscn" id="5_myn8n"]
+>>>>>>> b3c2c0150a158029020cf5e38d08dbc07ccb5693
 
 [sub_resource type="Resource" id="Resource_cqjs3"]
 script = ExtResource("3_r6jyl")
@@ -150,6 +159,7 @@ shader_params/u_depth_blending = true
 shader_params/u_triplanar = null
 shader_params/u_tile_reduction = null
 
+<<<<<<< HEAD
 [node name="godzilla (dinojack)" parent="." instance=ExtResource("4_qrvr5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 287.21, 4.29535, 498.135)
 
@@ -275,3 +285,12 @@ material_override = SubResource("StandardMaterial3D_h8fab")
 material_override = SubResource("StandardMaterial3D_lta86")
 
 [editable path="godzilla (dinojack)"]
+=======
+[node name="Godzilla(dinojack)" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 287.523, 5.96046e-08, 495.332)
+mesh = ExtResource("4_qrvr5")
+
+[node name="coin" parent="." instance=ExtResource("5_myn8n")]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 193.088, 492.728, 220.736)
+>>>>>>> b3c2c0150a158029020cf5e38d08dbc07ccb5693

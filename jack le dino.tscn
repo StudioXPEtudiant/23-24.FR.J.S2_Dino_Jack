@@ -687,7 +687,7 @@ material_override = SubResource("StandardMaterial3D_d6jj8")
 mesh = SubResource("BoxMesh_bbuop")
 
 [node name="Label3D" type="Label3D" parent="StaticBody3D28"]
-transform = Transform3D(0.0914478, -1.81899e-10, 5.82077e-09, 8.6402e-11, 0.0821576, 9.60426e-10, 3.49246e-10, 4.65661e-10, 0.0999364, 4.89341, 0.0470489, 0.920888)
+transform = Transform3D(0.0914478, 1.45519e-11, 5.82077e-09, 8.77662e-11, 0.0821576, 9.60426e-10, 3.49246e-10, 2.32831e-10, 0.0999364, 4.8933, 0.0424785, 0.920696)
 text = "Clément
 Alisson
 Samuel

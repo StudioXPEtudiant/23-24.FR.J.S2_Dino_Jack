@@ -1,14 +1,133 @@
-[gd_scene load_steps=6 format=3 uid="uid://c6623528swkb1"]
+[gd_scene load_steps=46 format=3 uid="uid://c6623528swkb1"]
 
 [ext_resource type="Script" path="res://addons/zylann.hterrain/hterrain.gd" id="1_rc264"]
 [ext_resource type="Resource" path="res://map/map1/data.hterrain" id="2_m24wk"]
 [ext_resource type="Script" path="res://addons/zylann.hterrain/hterrain_texture_set.gd" id="3_r6jyl"]
-[ext_resource type="ArrayMesh" uid="uid://dkn3yft3iedxc" path="res://dino/godzilla/godzilla (dinojack).obj" id="4_qrvr5"]
+[ext_resource type="PackedScene" uid="uid://dkn3yft3iedxc" path="res://dino/godzilla/godzilla (dinojack).obj" id="4_qrvr5"]
 
 [sub_resource type="Resource" id="Resource_cqjs3"]
 script = ExtResource("3_r6jyl")
 mode = 0
 textures = [[], []]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_itj34"]
+albedo_color = Color(0.170962, 0.00425589, 0.175182, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b05qp"]
+albedo_color = Color(0.305255, 0.0130794, 0.311981, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tnra6"]
+albedo_color = Color(0.305882, 0.0117647, 0.313726, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v2uil"]
+albedo_color = Color(0.0127678, 6.64618e-06, 0.0256906, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_it4ct"]
+albedo_color = Color(0.0117647, 0, 0.027451, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yfcpq"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_32vqd"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6brdd"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yowuo"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tosp1"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0y0x7"]
+albedo_color = Color(0.0199979, 2.12933e-05, 0.0601623, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_br20g"]
+albedo_color = Color(0.104254, 5.5206e-05, 0.148536, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e3pxi"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3rbam"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_602ox"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lc76d"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hkhut"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gl1e1"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_04ou6"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_datgj"]
+albedo_color = Color(0.199605, 0.119152, 0.244897, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fd2fs"]
+albedo_color = Color(0.125006, 1.16928e-05, 0.12459, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_57n88"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3r576"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m6nie"]
+albedo_color = Color(0.321967, 0.000816971, 0.489181, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y3to5"]
+albedo_color = Color(0.321569, 0, 0.490196, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1eo88"]
+albedo_color = Color(0.259664, 0.000515384, 0.396294, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rymqr"]
+albedo_color = Color(0.258824, 0, 0.396078, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_73cr4"]
+albedo_color = Color(0.315502, 1.36451e-05, 0.254494, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3gtii"]
+albedo_color = Color(0.108037, 3.95575e-05, 0.141312, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qx128"]
+albedo_color = Color(0.313726, 0, 0.254902, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_edue1"]
+albedo_color = Color(0.109804, 0, 0.141176, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_21pfy"]
+albedo_color = Color(0.417867, 0.000223038, 0.45501, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2w8or"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5vkv1"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jeo6c"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qan7j"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_oip5s"]
+albedo_color = Color(0.419608, 0, 0.454902, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nms1c"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h8fab"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lta86"]
+albedo_color = Color(0, 0, 0, 1)
 
 [node name="Node3D" type="Node3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -194.451, -492.94, -219.839)
@@ -31,6 +150,128 @@ shader_params/u_depth_blending = true
 shader_params/u_triplanar = null
 shader_params/u_tile_reduction = null
 
-[node name="Godzilla(dinojack)" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 287.523, 5.96046e-08, 495.332)
-mesh = ExtResource("4_qrvr5")
+[node name="godzilla (dinojack)" parent="." instance=ExtResource("4_qrvr5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 287.21, 4.29535, 498.135)
+
+[node name="Cube" parent="godzilla (dinojack)" index="0"]
+material_override = SubResource("StandardMaterial3D_itj34")
+
+[node name="Cube_001" parent="godzilla (dinojack)" index="1"]
+transform = Transform3D(0.998433, 0, 0, 0, 0.998433, 0, 0, 0, 0.998433, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_b05qp")
+
+[node name="Cube_002" parent="godzilla (dinojack)" index="2"]
+material_override = SubResource("StandardMaterial3D_tnra6")
+
+[node name="Cube_003" parent="godzilla (dinojack)" index="3"]
+material_override = SubResource("StandardMaterial3D_v2uil")
+
+[node name="Cube_004" parent="godzilla (dinojack)" index="4"]
+material_override = SubResource("StandardMaterial3D_it4ct")
+
+[node name="Cube_005" parent="godzilla (dinojack)" index="5"]
+material_override = SubResource("StandardMaterial3D_yfcpq")
+
+[node name="Cube_006" parent="godzilla (dinojack)" index="6"]
+material_override = SubResource("StandardMaterial3D_32vqd")
+
+[node name="Cube_007" parent="godzilla (dinojack)" index="7"]
+material_override = SubResource("StandardMaterial3D_6brdd")
+
+[node name="Cube_008" parent="godzilla (dinojack)" index="8"]
+material_override = SubResource("StandardMaterial3D_yowuo")
+
+[node name="Cube_009" parent="godzilla (dinojack)" index="9"]
+material_override = SubResource("StandardMaterial3D_tosp1")
+
+[node name="Cube_010" parent="godzilla (dinojack)" index="10"]
+material_override = SubResource("StandardMaterial3D_0y0x7")
+
+[node name="Cube_011" parent="godzilla (dinojack)" index="11"]
+material_override = SubResource("StandardMaterial3D_br20g")
+
+[node name="Cube_012" parent="godzilla (dinojack)" index="12"]
+material_override = SubResource("StandardMaterial3D_e3pxi")
+
+[node name="Cube_013" parent="godzilla (dinojack)" index="13"]
+material_override = SubResource("StandardMaterial3D_3rbam")
+
+[node name="Cube_014" parent="godzilla (dinojack)" index="14"]
+material_override = SubResource("StandardMaterial3D_602ox")
+
+[node name="Cube_015" parent="godzilla (dinojack)" index="15"]
+material_override = SubResource("StandardMaterial3D_lc76d")
+
+[node name="Cube_016" parent="godzilla (dinojack)" index="16"]
+material_override = SubResource("StandardMaterial3D_hkhut")
+
+[node name="Cube_017" parent="godzilla (dinojack)" index="17"]
+material_override = SubResource("StandardMaterial3D_gl1e1")
+
+[node name="Cube_018" parent="godzilla (dinojack)" index="18"]
+material_override = SubResource("StandardMaterial3D_04ou6")
+
+[node name="Cube_019" parent="godzilla (dinojack)" index="19"]
+material_override = SubResource("StandardMaterial3D_datgj")
+
+[node name="Cube_020" parent="godzilla (dinojack)" index="20"]
+material_override = SubResource("StandardMaterial3D_fd2fs")
+
+[node name="Cube_021" parent="godzilla (dinojack)" index="21"]
+material_override = SubResource("StandardMaterial3D_57n88")
+
+[node name="Cube_022" parent="godzilla (dinojack)" index="22"]
+material_override = SubResource("StandardMaterial3D_3r576")
+
+[node name="Cube_023" parent="godzilla (dinojack)" index="23"]
+material_override = SubResource("StandardMaterial3D_m6nie")
+
+[node name="Cube_024" parent="godzilla (dinojack)" index="24"]
+material_override = SubResource("StandardMaterial3D_y3to5")
+
+[node name="Cube_025" parent="godzilla (dinojack)" index="25"]
+material_override = SubResource("StandardMaterial3D_1eo88")
+
+[node name="Cube_026" parent="godzilla (dinojack)" index="26"]
+material_override = SubResource("StandardMaterial3D_rymqr")
+
+[node name="Cube_027" parent="godzilla (dinojack)" index="27"]
+material_override = SubResource("StandardMaterial3D_73cr4")
+
+[node name="Cube_028" parent="godzilla (dinojack)" index="28"]
+material_override = SubResource("StandardMaterial3D_3gtii")
+
+[node name="Cube_029" parent="godzilla (dinojack)" index="29"]
+material_override = SubResource("StandardMaterial3D_qx128")
+
+[node name="Cube_030" parent="godzilla (dinojack)" index="30"]
+material_override = SubResource("StandardMaterial3D_edue1")
+
+[node name="Cube_031" parent="godzilla (dinojack)" index="31"]
+material_override = SubResource("StandardMaterial3D_21pfy")
+
+[node name="Cube_032" parent="godzilla (dinojack)" index="32"]
+material_override = SubResource("StandardMaterial3D_2w8or")
+
+[node name="Cube_033" parent="godzilla (dinojack)" index="33"]
+material_override = SubResource("StandardMaterial3D_5vkv1")
+
+[node name="Cube_034" parent="godzilla (dinojack)" index="34"]
+material_override = SubResource("StandardMaterial3D_jeo6c")
+
+[node name="Cube_035" parent="godzilla (dinojack)" index="35"]
+material_override = SubResource("StandardMaterial3D_qan7j")
+
+[node name="Cube_036" parent="godzilla (dinojack)" index="36"]
+material_override = SubResource("StandardMaterial3D_oip5s")
+
+[node name="Cube_037" parent="godzilla (dinojack)" index="37"]
+material_override = SubResource("StandardMaterial3D_nms1c")
+
+[node name="Cube_038" parent="godzilla (dinojack)" index="38"]
+material_override = SubResource("StandardMaterial3D_h8fab")
+
+[node name="Cube_039" parent="godzilla (dinojack)" index="39"]
+material_override = SubResource("StandardMaterial3D_lta86")
+
+[editable path="godzilla (dinojack)"]
